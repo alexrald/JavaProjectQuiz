@@ -21,4 +21,6 @@ public class QuestionEntity {
     private String      questionTitle;
     private Date        addedTime;
     private String      questionText;
+    private int         points;
+
 }
