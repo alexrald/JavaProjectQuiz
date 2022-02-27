@@ -23,7 +23,7 @@ public class SurveyEntity {
     private String surveyQuestion;  // several questions
     private String surveyAnswers; // closed-end answers, 4 options
     private Date surveyCreationDate;
-    // private surveyLink   // unique link, surveyID and a hash
+    private String surveyLink;  // unique link, surveyID and a hash
     private int yearOfBirth;
 
 }
